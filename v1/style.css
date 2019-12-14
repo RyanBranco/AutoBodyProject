@@ -1,0 +1,209 @@
+.nav-link {
+	font-size: 20px;
+	color: white;
+	height: 50px;
+	font-family:"Red Hat Display";
+}
+
+.nav-link:hover {
+	border-bottom: 3px solid white;
+}
+
+.header-filler {
+	width: 100%;
+	height: 50px;
+	background-color: #fcfbf7;
+	position: fixed;
+	z-index: 2;
+}
+
+.AutoCenterAutoBodyLogo {
+	position: absolute;
+	width: 300px;
+	margin-left: 160px;
+	margin-top: 9px;
+}
+
+.nav {
+	background-color: #45abbf;
+	margin-top: 44px;
+	padding: 2px;
+}
+
+/*.nav-item:hover {
+	color: #45abbf;
+}*/
+
+.schedule-appointment {
+	color: white;
+	background-color: #45abbf;
+	border: 3px solid #45abbf;
+	border-radius: 5px;
+	padding: 7px;
+	float: right;
+	margin-right: 15px;
+	font-family: "Red Hat Display";
+}
+
+.schedule-appointment:hover {
+	color: white;
+	background-color: #358494;
+	border-color: #358494;
+	text-decoration: none;
+}
+
+.schedule-appointment:active {
+	position: relative;
+	top: 2px;
+}
+
+.schedule-appointment-div {
+	margin-top: 17px;
+}
+
+#front-cover-img {
+	width: 100%;
+	height: 970px;
+}
+
+.phone-number {
+	position: absolute;
+	right: 40px;
+	top: 56px;
+	color: white;
+	font-family: lato;
+	font-size: 20px;
+	float: right;
+}
+
+.warranty {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 42px;
+	color: white;
+	position: relative;
+	margin-left: 28%;
+	bottom: 70px;
+}
+
+p {
+	font-family: Red Hat Display;
+	font-size: 22px;
+}
+
+.body-title {
+	font-family: lato;
+	position: relative;
+	left: 15%;
+}
+
+.about-content {
+	font-size: 22px;
+}
+
+.our-work {
+	font-size: 26px;
+}
+
+.FAQ-button:focus {
+	outline: none;
+}
+
+.FAQ-button {
+	font-family: Red Hat Display;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-right: 0px;
+	margin: left 0px;
+	border: none;
+	width: 100%;
+	position: relative;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+
+#question-1, #question-2, #question-3, #question-4, #question-5, #question-6, #question-7, #question-8, #question-9 {
+	position: relative;
+	left: 3%;
+}
+
+iframe {
+	width: 60%;
+}
+
+.footer-icons {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 23px;
+	margin-right: 15px;
+	border-radius: 5px;
+	float: right;
+}
+
+.footer-icons:active {
+	position: relative;
+	top: 1px;
+}
+
+.footer-icons:hover {
+	position: relative;
+	bottom: 2px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body {
+	overflow-x: hidden;
+	background-color: #fcfbf7;
+}
+
+.Rental {
+	position: relative;
+	margin: auto auto;
+	padding-left: 5px;
+	padding: right 5px;
+	font-size: 22px;
+}
+
+.rentalpicture {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+#line { 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	opacity: 0.5;
+	width: 80%;
+}
+
+#ourwork  {
+	margin-left: auto;
+	margin-right: auto;
+	height: 630px;
+	position: relative;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+}
+
+.before-picture, .after-picture {
+	padding: 5px;
+	display: inline;
+}
+
+/*.container {
+	border: 3px solid black;
+}*/
