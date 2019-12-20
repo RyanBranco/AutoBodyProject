@@ -27,7 +27,7 @@ p {
 }
 
 nav {
-    
+    z-index: 2;
     background-color: #fdfdfd;
     position: fixed;
     width: 100%;
@@ -78,10 +78,25 @@ section {
 }
 
 .subSection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #ededed;
+}
+
+.subSection p {
+    text-align: center;
+}
+
+.subSection button {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: none;
+    font-size: 22px;
+    background-color: #439191;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 .sectionTitle {
@@ -149,6 +164,7 @@ section {
     text-align: left;
     width: 93%;
     border: none;
+    margin-top: 20px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 5px;
@@ -159,13 +175,18 @@ section {
 	outline: none;
 }
 
+.FAQButton:hover {
+    cursor: pointer;
+}
+
 .question {
+    display: block;
     background-color: #ebebeb;
     font-size: 18px;
     position: relative;
     padding: 10px;
     margin-left: 3%;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     width: 85%;
 }
 
@@ -282,11 +303,11 @@ aside img {
     }
 
     #beforeAfterPictures {
-        width: 100%;
+        width: 90%;
     }
 
     #beforeAfterPictures img {
-        width: 150px;
+        width: 135px;
     }
 
     #rental p {
