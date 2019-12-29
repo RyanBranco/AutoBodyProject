@@ -1,7 +1,5 @@
-/*give ".currentScreen to the section that is on your screen"*/
-function questionClick() {
-    let question = document.getElementsByClassName('question')
-    for (i = 0; i <= question.length; i++) {
-        this ;
-    };
-};
+const about = document.getElementById("navAbout");
+const ourWork = document.getElementById("navOurWork");
+const faq = document.getElementById("navFaq");
+const rental = document.getElementById("navRental");
+const mapLocation = document.getElementById("navLocation");
