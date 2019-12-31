@@ -199,13 +199,6 @@ section {
 
 .show {
     display: block;
-    background-color: #ebebeb;
-    font-size: 18px;
-    position: relative;
-    padding: 10px;
-    margin-left: 3%;
-    margin-bottom: 5px;
-    width: 85%;
 }
 
 #enterprise {
