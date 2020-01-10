@@ -1,10 +1,27 @@
-const about = document.getElementById("navAbout");
-const ourWork = document.getElementById("navOurWork");
-const faq = document.getElementById("navFaq");
-const rental = document.getElementById("navRental");
-const mapLocation = document.getElementById("navLocation");
-
 const questions = document.getElementsByClassName("question");
+const sections = document.querySelectorAll("section")
+const currentScreen = document.getElementsByClassName("currentScreen")
+
+const options = {
+    threshold: 0.53
+}
+
+let observer = new IntersectionObserver(function(entries,observer) {
+    entries.forEach(entry => {
+        const id = entry.target.id;
+        const navId = document.getElementById("nav" + id)
+        if (entry.isIntersecting) {
+            navId.className = "currentScreen";
+        }
+        if (!entry.isIntersecting) {
+            navId.className = "";
+        }
+    })
+}, options);
+
+sections.forEach(section => {
+    observer.observe(section);
+})
 
 function questionClick(questionNumber) {
     let show = 0;

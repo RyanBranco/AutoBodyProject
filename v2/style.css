@@ -60,6 +60,7 @@ nav ul li {
 
 .currentScreen {
     border-bottom: 3px solid black;
+    transition: all 0.1s linear;
 }
 
 /*------ header/banner ------*/
@@ -303,6 +304,11 @@ aside img {
     }
 
 /*------ main ------*/
+
+    header {
+        height: 50vh;
+    }
+
     #about p {
         font-size: 1.3em;
     }
