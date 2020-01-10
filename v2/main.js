@@ -12,8 +12,7 @@ let observer = new IntersectionObserver(function(entries,observer) {
         const navId = document.getElementById("nav" + id)
         if (entry.isIntersecting) {
             navId.className = "currentScreen";
-        }
-        if (!entry.isIntersecting) {
+        } else {
             navId.className = "";
         }
     })
